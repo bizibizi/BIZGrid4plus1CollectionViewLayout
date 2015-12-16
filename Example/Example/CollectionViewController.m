@@ -8,6 +8,7 @@
 
 #import "CollectionViewController.h"
 #import "ImageCollectionViewCell.h"
+#import "BIZGrid4plus1CollectionViewLayout.h"
 
 
 @interface CollectionViewController ()
@@ -23,6 +24,9 @@
     [super viewDidLoad];
     
     [self loadDataSource];
+    
+    //Create in code
+//    self.collectionView.collectionViewLayout = [[BIZGrid4plus1CollectionViewLayout alloc] init];
 }
 
 - (void)loadDataSource
