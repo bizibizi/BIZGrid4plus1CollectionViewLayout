@@ -11,7 +11,12 @@ BIZGrid4plus1CollectionViewLayout is a subclass of UICollectionViewLayout that c
 # Installation
 
 ### Manually
- - Copy ```BIZGrid4plus1CollectionViewLayout``` folder to your project 
+- Copy ```Class``` folder to your project 
+
+### From CocoaPods:
+```objective-c
+pod 'BIZGrid4plus1CollectionViewLayout' 
+```
 
 
 # Usage
