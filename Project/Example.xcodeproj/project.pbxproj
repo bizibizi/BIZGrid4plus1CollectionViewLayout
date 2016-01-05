@@ -12,7 +12,7 @@
 		7E2237061C219941008DB11A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237041C219941008DB11A /* Main.storyboard */; };
 		7E2237081C219941008DB11A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237071C219941008DB11A /* Assets.xcassets */; };
 		7E22370B1C219941008DB11A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237091C219941008DB11A /* LaunchScreen.storyboard */; };
-		7E272E6A1C21C50200E6D406 /* BIZGrid4plus1CollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E272E691C21C50200E6D406 /* BIZGrid4plus1CollectionViewLayout.m */; settings = {ASSET_TAGS = (); }; };
+		7E2701B91C3B542000D55B1A /* BIZGrid4plus1CollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2701B81C3B542000D55B1A /* BIZGrid4plus1CollectionViewLayout.m */; settings = {ASSET_TAGS = (); }; };
 		7E272E6F1C21C59D00E6D406 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E272E6C1C21C59D00E6D406 /* CollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
 		7E272E701C21C59D00E6D406 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E272E6E1C21C59D00E6D406 /* ImageCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		7E272E761C21C9E700E6D406 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7E272E751C21C9E700E6D406 /* images */; settings = {ASSET_TAGS = (); }; };
@@ -27,8 +27,8 @@
 		7E2237071C219941008DB11A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E22370A1C219941008DB11A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E22370C1C219941008DB11A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E272E681C21C50200E6D406 /* BIZGrid4plus1CollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZGrid4plus1CollectionViewLayout.h; sourceTree = "<group>"; };
-		7E272E691C21C50200E6D406 /* BIZGrid4plus1CollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZGrid4plus1CollectionViewLayout.m; sourceTree = "<group>"; };
+		7E2701B71C3B542000D55B1A /* BIZGrid4plus1CollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZGrid4plus1CollectionViewLayout.h; sourceTree = "<group>"; };
+		7E2701B81C3B542000D55B1A /* BIZGrid4plus1CollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZGrid4plus1CollectionViewLayout.m; sourceTree = "<group>"; };
 		7E272E6B1C21C59D00E6D406 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		7E272E6C1C21C59D00E6D406 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		7E272E6D1C21C59D00E6D406 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		7E2236EF1C219941008DB11A = {
 			isa = PBXGroup;
 			children = (
-				7E272E671C21C50200E6D406 /* BIZGrid4plus1CollectionViewLayout */,
+				7E2701B61C3B542000D55B1A /* Classes */,
 				7E2236FA1C219941008DB11A /* Example */,
 				7E2236F91C219941008DB11A /* Products */,
 			);
@@ -91,14 +91,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7E272E671C21C50200E6D406 /* BIZGrid4plus1CollectionViewLayout */ = {
+		7E2701B61C3B542000D55B1A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7E272E681C21C50200E6D406 /* BIZGrid4plus1CollectionViewLayout.h */,
-				7E272E691C21C50200E6D406 /* BIZGrid4plus1CollectionViewLayout.m */,
+				7E2701B71C3B542000D55B1A /* BIZGrid4plus1CollectionViewLayout.h */,
+				7E2701B81C3B542000D55B1A /* BIZGrid4plus1CollectionViewLayout.m */,
 			);
-			name = BIZGrid4plus1CollectionViewLayout;
-			path = ../BIZGrid4plus1CollectionViewLayout;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,10 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E2237001C219941008DB11A /* AppDelegate.m in Sources */,
+				7E2701B91C3B542000D55B1A /* BIZGrid4plus1CollectionViewLayout.m in Sources */,
 				7E2236FD1C219941008DB11A /* main.m in Sources */,
 				7E272E6F1C21C59D00E6D406 /* CollectionViewController.m in Sources */,
 				7E272E701C21C59D00E6D406 /* ImageCollectionViewCell.m in Sources */,
-				7E272E6A1C21C50200E6D406 /* BIZGrid4plus1CollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
